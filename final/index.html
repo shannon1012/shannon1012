@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Longlong</title>
+
+
+    <!-- 引用 Bootstrap 的 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--引用自己的CSS-->
+    <link rel="stylesheet" href="./css/final.css">
+
+</head>
+
+<body>
+    <!--header-->
+    <div id="header">
+        <img src="./image/logo.jpg" id="logo">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li><a href="#推薦商品">推薦商品</a></li>
+            <li><a href="">衣服</a></li>
+            <li><a href="">褲子</a></li>
+            <li><a href="">帽子</a></li>
+            <li><a href="#buylist">購買清單</a></li>
+        </ul>
+    </div>
+    <!--滑動圖片-->
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./image/BAPE-logo.jpg" class="d-block w-100" style="height: 450px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/supreme-logo.jpg" class="d-block w-100" style="height: 450px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/zara-logo.jpg" class="d-block w-100" style="height: 450px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/uniqlo-logo.jpg" class="d-block w-100" style="height: 450px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/palace-logo.jpg" class="d-block w-100" style="height: 450px;">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <br>
+    <!--推薦商品-->
+    <div>
+        <h3 id="推薦商品">推薦商品</h3>
+        <table class="products">
+            <tr>
+                <td class="box">
+                    <img src="./image/bape t.jpg">
+                    <div class="box-hover-text">
+                        <h4>Bape</h4>
+                        <h5>2020秋冬款</h5>
+                        <p>尺寸：S . M . L . XL</p>
+                        <p>可線上購買</p>
+                        <a href="https://bape.com/collections/all/products/1g30-110-037" target="_blank" style="color:white;">商品資訊</a><br>
+                        <a href="https://www.google.com.tw/maps/place/BAPE/@25.0386545,121.5461099,17z/data=!3m1!4b1!4m5!3m4!1s0x3442abd028eefa95:0xd6e6ad7cea7ffd5a!8m2!3d25.0386497!4d121.5482986?hl=zh-TW" target="_blank" style="color:white;">尋找實體店面</a>
+                    </div>
+                </td>
+                <td class="box">
+                    <img src="./image/uniqlo t.jpg">
+                    <div class="box-hover-text">
+                        <h4>Uniqlo</h4>
+                        <h5>BILLIE UT</h5>
+                        <p>尺寸：S . M . L . XL</p>
+                        <p>可線上購買</p>
+                        <a href="https://www.uniqlo.com/tw/store/goods/424628#thumbnailSelect" target="_blank" style="color:white;">商品資訊</a><br>
+                        <a href="https://www.google.com.tw/maps/search/uniqlo/@25.0388008,121.5027392,13z?hl=zh-TW" target="_blank" style="color:white;">尋找實體店面</a>
+                    </div>
+                </td>
+                <td class="box">
+                    <img src="./image/zara pants.jpg">
+                    <div class="box-hover-text">
+                        <h4>Zara</h4>
+                        <h5>潑漆效果牛仔點褲</h5>
+                        <p>可線上購買</p>
+                        <p>尺寸：S . M . L . XL</p>
+                        <a href="https://www.zara.com/tw/zt/%E6%BD%91%E6%BC%86%E6%95%88%E6%9E%9C%E7%89%9B%E4%BB%94%E7%9F%AD%E8%A4%B2-p05862484.html?v1=46844214&v2=1555778" target="_blank" style="color:white;">商品資訊</a><br>
+                        <a href="https://www.google.com.tw/maps/search/zara/@25.0386494,121.5395438,15z/data=!3m1!4b1?hl=zh-TW" target="_blank" style="color:white;">尋找實體店面</a>
+                    </div>
+                </td>
+                <td class="box">
+                    <img src="./image/supreme hat.jpg">
+                    <div class="box-hover-text">
+                        <h4>Supreme</h4>
+                        <h5>藍色丹寧漁夫帽</h5>
+                        <p>可線上購買</p>
+                        <p>尺寸：S . M . L . XL</p>
+                        <a href="https://www.supremenewyork.com/shop/hats/ku4lqnhce/i8wfvb7hq" target="_blank" style="color:white;">商品資訊</a><br>
+                        <p>台灣無實體店面</p>
+                    </div>
+                </td>
+                <td class="box">
+                    <img src="./image/palace cap.jpg">
+                    <div class="box-hover-text">
+                        <h4>Palace</h4>
+                        <h5>白色格紋logo棒球帽</h5>
+                        <p>可線上購買</p>
+                        <p>尺寸：S . M . L . XL</p>
+                        <a href="https://shop.palaceskateboards.com/products/h0wtjb02uen8" target="_blank" style="color:white;">商品資訊</a><br>
+                        <p>台灣無實體店面</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>BAPE T恤</td>
+                <td>Uniqlo 印花T恤</td>
+                <td>Zara 牛仔短褲</td>
+                <td>Supreme 漁夫帽</td>
+                <td>Palace 棒球帽</td>
+            </tr>
+            <tr>
+                <td class="money">$70 USD</td>
+                <td class="money">$20 USD</td>
+                <td class="money">$30 USD</td>
+                <td class="money">$90 USD</td>
+                <td class="money">$60 USD</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+
+
+    <br>
+    <!--購物車-->
+    <h3 id="buylist">購買清單</h3>
+    <div id="product" class="product">
+        <div class="container">
+            <div class="item_header">
+                <div class="item_detail">商品</div>
+                <div class="price">單價</div>
+                <div class="count">數量</div>
+                <div class="amount">小計</div>
+                <div class="operate">刪除</div>
+            </div>
+            <div class="item_container" v-for="(item, index) in itemList" :key="item.id">
+                <div class="item_header item_body">
+                    <div class="item_detail">
+                        <img v-bind:src="item.img" alt="">
+                        <div class="name">{{item.itemName}}</div>
+                    </div>
+
+                    <div class="price"><span>$</span>{{item.price}}</div>
+                    <div class="count">
+                        <button @click="handleSub(item)">-</button> {{item.count}}
+                        <button @click="handlePlus(item)">+</button>
+                    </div>
+                    <div class="amount">{{item.price * item.count}}</div>
+                    <div class="operate">
+                        <button @click="handledelete(index)">刪除</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div id="footer">
+        <table align="center">
+            <tr>
+                <th id="footerth">服務項目</th>
+                <th id="footerth">關於我們</th>
+            </tr>
+            <tr>
+                <td><a href="" style="color:black;">超商貨到付款</a></td>
+                <td><a href="" style="color:black;">服務條款</a></td>
+            </tr>
+            <tr>
+                <td><a href="" style="color:black;">郵寄快遞</a></td>
+                <td><a href="" style="color:black;">隱私權聲明</a></td>
+            </tr>
+            <tr>
+                <td><a href="" style="color:black;">聯絡我們</a></td>
+                <td><a href="" style="color:black;">Facebook</a></td>
+            </tr>
+        </table>
+        <br>
+        <footer>
+            &copy;Copyright 2020 Longlong TW Limited. All rights reserved.
+        </footer>
+    </div>
+
+    <!-- 引用 Bootstrap 的 JS -->
+    <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+
+    <!--引用自己的js-->
+    <script src="./js/buylist.js"></script>
+
+</html>

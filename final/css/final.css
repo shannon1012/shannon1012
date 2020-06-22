@@ -1,0 +1,183 @@
+/*商品瀏覽*/
+
+.products {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h3 {
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+    padding: 15px;
+}
+
+img {
+    width: 200px;
+    height: 180px;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+table {
+    width: 80%;
+    table-layout: fixed;
+}
+
+table,
+th,
+td {
+    border: 2px black(200, 200, 200);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td.money {
+    color: blue;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: pink;
+}
+
+#header {
+    background-color: white;
+    height: 130px;
+    width: 100%;
+    position: relative;
+    color: black;
+}
+
+#logo {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 5px;
+    left: 40px;
+}
+
+#footer {
+    background-color: wheat;
+    height: 300px;
+    width: 100%;
+    color: black;
+    position: relative;
+    /*幫助footerimg定位*/
+}
+
+#footerth {
+    background-color: wheat;
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 350px;
+}
+
+li,
+li>a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: large;
+}
+
+.shopimg {
+    width: 50px;
+    height: 75px;
+}
+
+.box:hover .box-hover-text {
+    display: block;
+}
+
+.box-hover-text {
+    position: absolute;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.box-hover-text>h4 {
+    margin-top: 5px;
+}
+
+.box-hover-text>p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer {
+    text-align: center;
+    color: black;
+}
+
+
+/*購買清單*/
+
+body {
+    background-color: wheat;
+}
+
+.item_header {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.item_header div {
+    width: 200px;
+    color: #888;
+    line-height: 30px;
+}
+
+.item_header .item_detail {
+    width: 50%;
+}
+
+.item_body {
+    margin-top: 20px;
+    height: 100px;
+    align-items: center;
+}
+
+.item_detail img {
+    width: 80px;
+    height: 80px;
+    border-radius: 3px;
+    /* margin-top: 10px; */
+    float: left;
+}
+
+.item_detail .name {
+    margin-left: 100px;
+    margin-top: 20px;
+}
