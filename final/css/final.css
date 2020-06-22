@@ -108,8 +108,18 @@ li>a {
     height: 75px;
 }
 
+img.shopimg:hover {
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s ease-out;
+}
+
 .box:hover .box-hover-text {
     display: block;
+}
+
+.box {
+    position: relative;
+    color: pink;
 }
 
 .box-hover-text {
